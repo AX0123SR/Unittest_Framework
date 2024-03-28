@@ -9,7 +9,7 @@ class Apptesting(unittest.TestCase):
      def test_2(self):
          print("Second test case")
 
-     @unittest.skipIf(2==2, "Condition is True")
+     @unittest.skipIf(2==1, "Condition is True")
      def test_3(self):
          print("Third test case")
 

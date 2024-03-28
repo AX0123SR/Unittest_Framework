@@ -6,7 +6,7 @@ class Apptesting(unittest.TestCase):
      def setUpClass(cls):
          print("Runs before the class starts !! ")
 
-     @classmethod
+
      def setUp(self):
          print("This class method runs before every test method.............")
 
